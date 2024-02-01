@@ -1,0 +1,13 @@
+name = "GoTextProtocol"
+uuid = "605aa4d1-f09b-4313-be12-5c56fd59aa57"
+authors = ["Per Rutquist <per.rutquist@gmail.com> and contributors"]
+version = "0.1.0-DEV"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
