@@ -1,4 +1,4 @@
-# GoTextProtocol
+# GoTextProtocol.jl
 
 This Julia package implements a subset of the [Go Text Protocol (GTP), version 2](https://www.lysator.liu.se/~gunnar/gtp/gtp2-spec-draft2/gtp2-spec.html), as well as keeping track of the go board (captures, etc). (Here, "go" refers to the [board game](https://en.wikipedia.org/wiki/Go_(game)), not the programming language.)
 
