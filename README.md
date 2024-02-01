@@ -6,7 +6,7 @@ If a go playing engine is written in Julia, then this package should make it eas
 
 ## Usage
 
-All that is needed to create a go playing engine is to write a function `genmove(board, color, info)` that decides which move to make, given the `board` state and `color` to play (and some additional `info` like komi and time left.) This function is then passed to the `GoTextProtocol.gto_repl` function, which implements the GTP protocol. This REPL can be used directly from the terminal (for testing), but most commonly it will be accessed by a go client that provides a more friendly user interface.
+All that is needed to create a go playing engine is to write a function `genmove(board, color, info)` that decides which move to make, given the `board` state and `color` to play (and some additional `info` like komi and time left.) This function is then passed to the `GoTextProtocol.gtp_repl` function, which implements the GTP protocol. This REPL can be used directly from the terminal (for testing), but most commonly it will be accessed by a go client that provides a more friendly user interface.
 
 The file [example_engine.jl](./example_engine.jl) demonstrates how to write a Julia script that can be used by a go client. The go client will typically have an "add go engine" option in the settings, where the path to this script can be entered.
 
