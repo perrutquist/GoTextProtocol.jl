@@ -1,7 +1,7 @@
 name = "GoTextProtocol"
 uuid = "605aa4d1-f09b-4313-be12-5c56fd59aa57"
 authors = ["Per Rutquist <per.rutquist@gmail.com> and contributors"]
-version = "0.1.0-DEV"
+version = "0.1.0"
 
 [compat]
 julia = "1.9"
